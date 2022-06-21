@@ -7,7 +7,7 @@
 
 :root {
     --main-font-family: "League Spartan", "Arial", sans-serif;
-    --body-bgcolor: #88afaf;
+    --body-bgcolor: #d4eeeed6;
 }
 
 @font-face {
@@ -100,7 +100,7 @@ body {
 }
 
 .border {
-    border-left: 5px solid #093838;
+    border-left: 5px solid   #5CA5A5;
     border-radius: 10px 5px 5px 10px;
 
 }
@@ -368,7 +368,9 @@ margin-left: 36px;
         -ms-flex-pack: justify;
             justify-content: space-between;
     padding: 0;
+    margin: 0;
     list-style: none;
+
 }
 
 .end-content-item {
@@ -391,7 +393,7 @@ margin-left: 36px;
 .end-content-item:hover{
     color: #FFFFFF;
     background-color: #5CA5A5;
-    
+    cursor: pointer;
 }
 
 .last {
